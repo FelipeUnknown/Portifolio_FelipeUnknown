@@ -1,14 +1,17 @@
 .header{
     margin: 0;
-
+    padding-top: 1rem;
 }
 .divPai{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
 }
-h3{
-    color: yellow;
+.logoBtn{
+    color: blue;
+    font-size: 1.5rem;
 }
 
 .navUl{
@@ -21,7 +24,20 @@ h3{
     color: #D7D7D7;
     padding: 8px 16px;
 }
+.navUl .navLi .navBtns:hover {
+    color: blue;
+    transition: 0.3s ease-in-out;
+}
 .contatoBtn  {
     font-size: 20px;
-    color:red
+    color:blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+.contatoBtn:hover{
+    color: #D7D7D7;
+    background-color: blue;
+    transition: 0.3s ease-in-out;   
+
 }

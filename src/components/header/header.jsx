@@ -8,7 +8,7 @@ const Header = () =>{
                 <div>
                 <a className={style.logoBtn}href="/">
                     <h3>
-                        FelipeUnknow
+                        FelipeUnknown
                     </h3>
                 </a>
                 </div>

@@ -34,3 +34,18 @@
     transition: 0.3s ease-in-out;
     border: rgb(4, 182, 57);
 }
+
+@media(max-width:800px){
+    .section{
+        gap:3rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .divText{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        max-width: 70%;
+    }
+};

@@ -1,0 +1,37 @@
+
+.divPai{
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+.divCards{
+    gap: 2rem;
+    display:flex;
+}
+.cards{
+    padding: 1rem 2rem;
+    border: 1px solid rgb(4, 182, 57);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+h3{
+    color: rgb(4, 182, 57);
+}
+
+.reactImg{
+    width: 50%;
+}
+.verMaisBtn{
+    color: #d7d7d7;
+    border:1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 8px 14px;
+}
+.verMaisBtn:hover{
+    color: black;
+    background-color:rgb(4, 182, 57) ;
+    transition: 0.3s ease-in-out;
+    border: rgb(4, 182, 57);
+}
+

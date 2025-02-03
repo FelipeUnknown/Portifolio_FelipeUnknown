@@ -18,6 +18,11 @@
 h3{
     color: rgb(4, 182, 57);
 }
+.cardBtn:hover{
+    filter: drop-shadow(0px 0px 30px rgba(9, 117, 241, 0.4));
+    transition: 0.3s ease;
+    position: relative;
+}
 
 .reactImg{
     width: 50%;

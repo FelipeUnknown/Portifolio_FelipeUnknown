@@ -1,42 +1,53 @@
 
 .divPai{
     margin: 0 auto;
-    padding-top: 7rem;
+    padding-top: 8rem;
 }
-.divCards{
-    gap: 2rem;
+.divPai .divCards{
+    gap: 4rem;
     display:flex;
 }
-.cards{
-    padding: 1rem 2rem;
-    border: 1px solid rgb(4, 182, 57);
+.divCards .cards{
+    padding: 3rem 1rem;
+    background-color: #181818;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
+
 h3{
     color: rgb(4, 182, 57);
 }
-.cardBtn:hover{
+.divCards .cards:hover{
     filter: drop-shadow(0px 0px 30px rgba(9, 117, 241, 0.4));
     transition: 0.3s ease;
     position: relative;
 }
-
-.reactImg{
+.cards::before {
+    background-color: #181818;
+    z-index: -1;
+}
+.cards .diviImg .reactImg{
     width: 50%;
 }
-.verMaisBtn{
+.cards .divBtn .verMaisBtn{
     color: #d7d7d7;
     border:1px solid #d7d7d7;
     border-radius: 10px;
     padding: 8px 14px;
 }
-.verMaisBtn:hover{
-    color: black;
+.cards .divBtn .verMaisBtn:hover{
     background-color:rgb(4, 182, 57) ;
     transition: 0.3s ease-in-out;
     border: rgb(4, 182, 57);
 }
 
+@media(max-width: 800px){
+
+    .divCards{
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

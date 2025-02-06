@@ -1,9 +1,10 @@
 
+import gemi from "/src/assets/img/ProjetoGemini.png";
 const Port =()=>{
     return(
         <port>
             <div>
-                <img/>
+                <img src={gemi}/>
             </div>
             
         </port>

@@ -1,0 +1,17 @@
+
+
+.section{
+    margin: 0;
+    padding-top: 9rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.cardsDiv{
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+    width: 100%;
+};

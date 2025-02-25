@@ -10,7 +10,6 @@ const Port = () => {
   const[width, setWidth] =useState(0)
 
     useEffect[()=>{
-      console.log(carousel.current?.scrollWidth, carousel.current?.ofsetWidth);
       setWidth(carousel.current?.scrollWidth - carousel.current?.ofsetWidth);
     }]
 
@@ -22,7 +21,7 @@ const Port = () => {
       <motion.div  ref={carousel} className={style.carousel} whileTap={{cursor: "grabbing"}}>
         <motion.div className={style.inner}
           drag ="x"
-          dragConstraints={{ rigth:0, left: -width }}
+          dragConstraints={{ right: 0 , left: -width }}
           initial={{x:100}}
           animate={{x:0}}
           transition={{ duration:0.8}}

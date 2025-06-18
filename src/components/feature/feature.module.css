@@ -1,13 +1,13 @@
 
 .divPai{
     margin: 0 auto;
-    padding-top: 160px;
+    padding-top: 10rem;
 }
 .divPai .divCards{
     gap: 4rem;
     display:flex;
 }
-.divCards .cards{
+.divPai .divCards .cards{
     padding: 3rem 1rem;
     background-color: #181818;
     border-radius: 10px;
@@ -16,22 +16,23 @@
     gap: 2rem;
 }
 
-h3{
+.divCards .cards h3{
     color: rgb(4, 182, 57);
 }
-.divCards .cards:hover{
+
+.divPai .divCards .cards:hover{
     filter: drop-shadow(0px 0px 30px rgba(9, 117, 241, 0.4));
     transition: 0.3s ease;
     position: relative;
 }
-.cards::before {
+.divPai .divCards .cards::before {
     background-color: #181818;
     z-index: -1;
 }
 .cards .diviImg .reactImg{
     width: 50%;
 }
-.cards .divBtn .verMaisBtn{
+.divCards .cards .divBtn .verMaisBtn{
     color: #d7d7d7;
     border:1px solid #d7d7d7;
     border-radius: 10px;
@@ -45,7 +46,7 @@ h3{
 
 @media(max-width: 800px){
 
-    .divCards{
+    .divCards .divCards{
         align-items: center;
         flex-direction: column;
     }

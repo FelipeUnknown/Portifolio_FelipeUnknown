@@ -7,8 +7,9 @@
     gap: 2rem;
 }
 
-.img{
+.section  .divImg .img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .divText{
